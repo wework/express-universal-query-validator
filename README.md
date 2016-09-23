@@ -2,12 +2,13 @@ Express middleware to provide consistently parseable query parameters to univers
 ====================
 
 [![Build Status][travis-image]][travis-url]
-
 [![Coverage Status][coveralls-image]][coveralls-url]
-
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
+
+
+
 [![Sauce Test Status][saucelabs-image]][saucelabs-url]
 
 
@@ -112,7 +113,7 @@ $ npm run docs
 [coveralls-url]:https://coveralls.io/github/wework/express-universal-query-validator?branch=master
 
 [travis-url]:https://travis-ci.org/wework/express-universal-query-validator
-[travis-image]: https://img.shields.io/travis/wework/express-universal-query-validator?style=flat-square
+[travis-image]: https://travis-ci.org/wework/express-universal-query-validator.svg?branch=master
 
 [saucelabs-image]:https://saucelabs.com/browser-matrix/wework-query-valid.svg
 [saucelabs-url]:https://saucelabs.com/u/wework-query-valid
