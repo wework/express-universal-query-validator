@@ -2,7 +2,10 @@
   "name": "express-universal-query-validator",
   "version": "1.0.0",
   "description": "Express middleware to provide consistently parseable query parameters to universal applications",
-  "author": "Mike Nason <michael.nason@wework.com>",
+  "author": "WeWork Digital <dev-team@wework.com>",
+  "contributors": [
+    "Mike Nason <michael.nason@wework.com> (https://github.com/nason)"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/wework/express-universal-query-validator",
   "bugs": {
@@ -26,13 +29,18 @@
     "type": "git",
     "url": "git@github.com:wework/express-universal-query-validator.git"
   },
+  "engines": {
+    "node": ">=6.0"
+  },
   "keywords": [
     "javascript",
     "es6",
     "es2015",
     "express",
     "universal",
+    "isomorphic",
     "querystring",
+    "query-string",
     "react",
     "react-router"
   ],
