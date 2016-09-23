@@ -1,6 +1,6 @@
 {
   "name": "express-universal-query-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware to provide consistently parseable query parameters to universal applications",
   "author": "WeWork Digital <dev-team@wework.com>",
   "contributors": [
