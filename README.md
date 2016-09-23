@@ -3,7 +3,8 @@ Express middleware to provide consistently parseable query parameters to univers
 
 [![Build Status][travis-image]][travis-url]
 
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
@@ -107,8 +108,8 @@ $ npm run docs
 [npm-version-image]: http://img.shields.io/npm/v/express-universal-query-validator.svg?style=flat-square
 [npm-downloads-image]: http://img.shields.io/npm/dm/express-universal-query-validator.svg?style=flat-square
 
-[gemnasium-image]: https://img.shields.io/gemnasium/wework/express-universal-query-validator.svg?style=flat-square
-[gemnasium-url]: https://gemnasium.com/wework/express-universal-query-validator
+[coveralls-image]:https://coveralls.io/repos/github/wework/express-universal-query-validator/badge.svg?branch=master
+[coveralls-url]:https://coveralls.io/github/wework/express-universal-query-validator?branch=master
 
 [travis-url]:https://travis-ci.org/wework/express-universal-query-validator
 [travis-image]: https://img.shields.io/travis/wework/express-universal-query-validator?style=flat-square

@@ -7,7 +7,7 @@ branches:
     - master
 
 script:
-    - "npm run test"
+    - "npm run test:ci"
 
 after_success:
     - SAUCELABS=true npm run test:browser

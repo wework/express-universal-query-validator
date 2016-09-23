@@ -15,8 +15,10 @@
   "jsnext:main": "src/index.js",
   "scripts": {
     "test": "npm run test:browser && npm run test:node",
+    "test:ci": "npm run test:browser && npm run test:node:ci",
     "test:browser": "NODE_ENV=test karma start test/karma.conf.js",
     "test:node": "NODE_ENV=test nyc mocha -r test/runner test/specs/**/*.js",
+    "test:node:ci": "npm run test:node && nyc report --reporter=text-lcov | coveralls",
     "eslint": "eslint src test",
     "clean": "rimraf dist && mkdirp dist",
     "bundle": "rollup -c",
@@ -56,6 +58,7 @@
     "babel-plugin-transform-es2015-modules-umd": "6.12.0",
     "babel-preset-es2015": "6.14.0",
     "chai": "3.5.0",
+    "coveralls": "2.11.14",
     "documentation": "4.0.0-beta10",
     "eslint": "3.5.0",
     "imports-loader": "0.6.5",
