@@ -2,9 +2,13 @@
 
 # express-universal-query-validator
 
+[src/index.js:6-6](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/index.js#L6-L6 "Source code on GitHub")
+
 Express middleware to provide consistently parseable query parameters to universal applications
 
 # defaultRedirect
+
+[src/index.js:29-40](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/index.js#L29-L40 "Source code on GitHub")
 
 Default callback behavior for the middleware
 Can be replaced by passing a function argument in the
@@ -27,6 +31,8 @@ Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 
 # queryValidator
 
+[src/index.js:54-92](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/index.js#L54-L92 "Source code on GitHub")
+
 Create a middleware to validate queries are parseable by both the browser and node.
 This should be mounted early.
 
@@ -43,6 +49,8 @@ Returns **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 
 # middleware
 
+[src/index.js:63-91](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/index.js#L63-L91 "Source code on GitHub")
+
 **Parameters**
 
 -   `req` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
@@ -53,9 +61,13 @@ Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 
 # express-universal-query-validator/util
 
+[src/util/index.js:6-6](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/util/index.js#L6-L6 "Source code on GitHub")
+
 Utility functions needed for this module
 
 # isUnparseableQuery
+
+[src/util/index.js:15-17](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/util/index.js#L15-L17 "Source code on GitHub")
 
 Checks if a key=value param can not be
 parsed by global `decodeURIComponent`
@@ -68,6 +80,8 @@ Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 
 # validateQueryParams
 
+[src/util/index.js:24-26](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/util/index.js#L24-L26 "Source code on GitHub")
+
 Are all queries parseable?
 
 **Parameters**
@@ -77,6 +91,8 @@ Are all queries parseable?
 Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 
 # dropInvalidQueryParams
+
+[src/util/index.js:33-35](https://github.com/wework/express-universal-query-validator/blob/bae52fdda7c0ae2033432ee06bf34ca5e98a8caa/src/util/index.js#L33-L35 "Source code on GitHub")
 
 Returns input minus unparseable queries
 

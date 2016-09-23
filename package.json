@@ -11,6 +11,11 @@
   "bugs": {
     "url": "https://github.com/wework/express-universal-query-validator/issues"
   },
+  "files": [
+    "dist/",
+    "index.js",
+    "API.md"
+  ],
   "main": "dist/queryValidator.js",
   "jsnext:main": "src/index.js",
   "scripts": {
