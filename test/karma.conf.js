@@ -16,8 +16,7 @@ module.exports = function(config) {
     singleRun: true,
     frameworks: ['mocha'],
     sauceLabs: {
-      build: process.env.TRAVIS_JOB_ID,
-      testName: process.env.LIBRARY_NAME
+      testName: 'express-universal-query-validator'
     },
     browserNoActivityTimeout: 120000,
     concurrency: 2,

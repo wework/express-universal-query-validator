@@ -86,7 +86,6 @@ $ npm run test:browser
 ```
 
 Runs browser tests via SauceLabs only
-*TODO: This still needs to be setup*
 ```shell
 $ SAUCELABS=true npm run test:browser
 ```
@@ -114,11 +113,8 @@ $ npm run docs
 [travis-url]:https://travis-ci.org/wework/express-universal-query-validator
 [travis-image]: https://img.shields.io/travis/wework/express-universal-query-validator?style=flat-square
 
-[saucelabs-image]:https://saucelabs.com/browser-matrix/express-universal-query-validator.svg
-[saucelabs-url]:https://saucelabs.com/u/express-universal-query-validator
-
-[saucelabs-image]:https://saucelabs.com/browser-matrix/expressuniversalqueryvalidator.svg
-[saucelabs-url]:https://saucelabs.com/u/expressuniversalqueryvalidator
+[saucelabs-image]:https://saucelabs.com/browser-matrix/wework-query-valid.svg
+[saucelabs-url]:https://saucelabs.com/u/wework-query-valid
 
 [license-url]: LICENSE
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
