@@ -55,7 +55,7 @@ See [API.md](API.md) for detailed documentation.
 function invalidParamHandler(req, res, next, context) {
     const { error, oldQuery, nextQuery, droppedParams } = context;
 
-    // Do what you wish
+    // Do what you love
 }
 
 app.use(queryValidator(invalidParamHandler));
