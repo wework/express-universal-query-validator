@@ -1,0 +1,7 @@
+# Don't publish anything to npm but package.json, the dist
+# and directory, API.md, and the root index.js file
+
+!dist/*
+!API.md
+!package.json
+!index.js
