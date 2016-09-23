@@ -3,7 +3,8 @@ Express middleware to provide consistently parseable query parameters to univers
 
 [![Build Status][travis-image]][travis-url]
 
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
@@ -86,7 +87,6 @@ $ npm run test:browser
 ```
 
 Runs browser tests via SauceLabs only
-*TODO: This still needs to be setup*
 ```shell
 $ SAUCELABS=true npm run test:browser
 ```
@@ -108,17 +108,14 @@ $ npm run docs
 [npm-version-image]: http://img.shields.io/npm/v/express-universal-query-validator.svg?style=flat-square
 [npm-downloads-image]: http://img.shields.io/npm/dm/express-universal-query-validator.svg?style=flat-square
 
-[gemnasium-image]: https://img.shields.io/gemnasium/wework/express-universal-query-validator.svg?style=flat-square
-[gemnasium-url]: https://gemnasium.com/wework/express-universal-query-validator
+[coveralls-image]:https://coveralls.io/repos/github/wework/express-universal-query-validator/badge.svg?branch=master
+[coveralls-url]:https://coveralls.io/github/wework/express-universal-query-validator?branch=master
 
 [travis-url]:https://travis-ci.org/wework/express-universal-query-validator
 [travis-image]: https://img.shields.io/travis/wework/express-universal-query-validator?style=flat-square
 
-[saucelabs-image]:https://saucelabs.com/browser-matrix/express-universal-query-validator.svg
-[saucelabs-url]:https://saucelabs.com/u/express-universal-query-validator
-
-[saucelabs-image]:https://saucelabs.com/browser-matrix/expressuniversalqueryvalidator.svg
-[saucelabs-url]:https://saucelabs.com/u/expressuniversalqueryvalidator
+[saucelabs-image]:https://saucelabs.com/browser-matrix/wework-query-valid.svg
+[saucelabs-url]:https://saucelabs.com/u/wework-query-valid
 
 [license-url]: LICENSE
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square

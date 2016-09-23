@@ -1,17 +1,20 @@
 language: node_js
 node_js:
    - "6.*"
-   - "5.*"
-   - "4.*"
-   - "4.*"
-   - "0.12.*"
 
 branches:
   only:
     - master
 
+script:
+    - "npm run test:ci"
+
 after_success:
-    - SAUCELABS=true npm test
+    - SAUCELABS=true npm run test:browser
+
+cache:
+  directories:
+    - node_modules
 
 notifications:
     email: false
