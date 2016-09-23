@@ -1,4 +1,4 @@
-Express middleware to provide consistently parseable query parameters to universal applications.
+express-universal-query-validator
 ====================
 
 [![Build Status][travis-image]][travis-url]
@@ -11,6 +11,7 @@ Express middleware to provide consistently parseable query parameters to univers
 
 [![Sauce Test Status][saucelabs-image]][saucelabs-url]
 
+>Express middleware to provide consistently parseable query parameters to universal applications.
 
 # Introduction
 
