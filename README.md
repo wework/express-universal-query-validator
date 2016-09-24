@@ -25,7 +25,7 @@ This package is tested in *both* Node.js and browsers to ensure the same behavio
 
 # Usage
 
-```es6
+```js
 import express from 'express';
 import queryValidator from 'express-universal-query-validator';
 
@@ -44,13 +44,13 @@ console.info(`Server listening on ${process.env.PORT} and handling invalid query
 
 ## Configuration
 
-[`queryValidator`](API.md/# queryValidator) accepts a callback that is executed when invalid params are detected, and a configuration object.
+[`queryValidator`](API.md#queryValidator) accepts a callback that is executed when invalid params are detected, and a configuration object.
 
 See [API.md](API.md) for detailed documentation.
 
 ## Examples
 
-```es6
+```js
 
 function invalidParamHandler(req, res, next, context) {
     const { error, oldQuery, nextQuery, droppedParams } = context;
@@ -99,7 +99,7 @@ $ npm run test:node
 ```
 
 ### Docs
-Regenerate `API.md` docs from JSDoc comments
+Regenerate [API.md](API.md) docs from JSDoc comments
 ```shell
 $ npm run docs
 ```
