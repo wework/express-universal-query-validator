@@ -2,6 +2,7 @@ express-universal-query-validator
 ====================
 
 [![Build Status][travis-image]][travis-url]
+[![Libraries.io for GitHub][librariesio-image]][librariesio-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
@@ -121,4 +122,7 @@ $ npm run docs
 
 [license-url]: LICENSE
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
+
+[librariesio-url]: https://libraries.io/npm/express-universal-query-validator
+[librariesio-image]: https://img.shields.io/librariesio/github/wework/express-universal-query-validator.svg?maxAge=2592000
 
