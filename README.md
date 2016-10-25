@@ -117,8 +117,8 @@ $ npm run docs
 [travis-url]:https://travis-ci.org/wework/express-universal-query-validator
 [travis-image]: https://travis-ci.org/wework/express-universal-query-validator.svg?branch=master
 
-[saucelabs-image]:https://saucelabs.com/browser-matrix/wework-query-valid.svg
-[saucelabs-url]:https://saucelabs.com/u/wework-query-valid
+[saucelabs-image]:https://saucelabs.com/browser-matrix/query-validator.svg
+[saucelabs-url]:https://saucelabs.com/u/query-validator
 
 [license-url]: LICENSE
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
