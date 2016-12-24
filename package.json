@@ -52,7 +52,7 @@
     "react-router"
   ],
   "peerDependencies": {
-    "lodash": "^4.16.1",
+    "lodash": "^4.17.3",
     "express": "^4.14.0"
   },
   "devDependencies": {
