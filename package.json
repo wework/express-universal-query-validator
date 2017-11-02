@@ -78,7 +78,7 @@
     "mkdirp": "0.5.1",
     "mocha": "3.2.0",
     "nyc": "10.0.0",
-    "phantomjs-prebuilt": "2.1.14",
+    "phantomjs-prebuilt": "2.1.16",
     "rimraf": "2.5.4",
     "rollup": "0.38.1",
     "rollup-plugin-babel": "2.7.1",
