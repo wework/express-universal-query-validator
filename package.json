@@ -84,6 +84,6 @@
     "rollup-plugin-babel": "2.7.1",
     "sinon": "1.17.7",
     "sinon-chai": "2.8.0",
-    "webpack": "1.14.0"
+    "webpack": "4.16.0"
   }
 }
